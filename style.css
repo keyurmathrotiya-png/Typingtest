@@ -1,32 +1,22 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-}
 body {
   background: #f4f6f9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
+header, footer { text-align: center; padding: 10px; }
+header h1 { margin: 10px 0; }
 .container {
-  background: white;
-  padding: 20px 30px;
+  max-width: 650px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  width: 90%;
-  max-width: 600px;
-  text-align: center;
 }
-h1 {
-  color: #333;
-  margin-bottom: 20px;
-}
-.settings {
-  margin-bottom: 20px;
-}
+.settings { margin-bottom: 20px; text-align: center; }
 #timeSelect, #startBtn {
   padding: 8px 12px;
   margin: 5px;
@@ -37,26 +27,16 @@ h1 {
 #startBtn {
   background-color: #007bff;
   color: white;
-  cursor: pointer;
   border: none;
+  cursor: pointer;
 }
-#startBtn:hover {
-  background-color: #0056b3;
-}
-#testArea {
-  margin-top: 20px;
-}
-#timer {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
+#startBtn:hover { background-color: #0056b3; }
 #quote {
-  background: #f1f1f1;
+  background: #f9f9f9;
   padding: 12px;
   border-radius: 8px;
   min-height: 60px;
-  margin-bottom: 15px;
+  margin: 15px 0;
 }
 #inputArea {
   width: 100%;
@@ -64,13 +44,10 @@ h1 {
   padding: 10px;
   border-radius: 8px;
   border: 1px solid #ccc;
-  font-size: 16px;
   resize: none;
+  font-size: 16px;
 }
-.hidden {
-  display: none;
-}
-#results {
-  margin-top: 20px;
-  font-size: 18px;
-}
+#timer { font-weight: bold; margin-bottom: 10px; }
+.ad-container { margin: 20px auto; text-align: center; }
+.hidden { display: none; }
+#results h2 { margin-top: 15px; }
