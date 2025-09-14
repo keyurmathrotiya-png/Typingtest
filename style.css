@@ -1,0 +1,53 @@
+body {
+  background: #f4f6f9;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+header, footer { text-align: center; padding: 10px; }
+header h1 { margin: 10px 0; }
+.container {
+  max-width: 650px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.settings { margin-bottom: 20px; text-align: center; }
+#timeSelect, #startBtn {
+  padding: 8px 12px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+#startBtn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#startBtn:hover { background-color: #0056b3; }
+#quote {
+  background: #f9f9f9;
+  padding: 12px;
+  border-radius: 8px;
+  min-height: 60px;
+  margin: 15px 0;
+}
+#inputArea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+  font-size: 16px;
+}
+#timer { font-weight: bold; margin-bottom: 10px; }
+.ad-container { margin: 20px auto; text-align: center; }
+.hidden { display: none; }
+#results h2 { margin-top: 15px; }
