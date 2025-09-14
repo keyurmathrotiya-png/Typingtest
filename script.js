@@ -1,0 +1,1 @@
+const quotes = ['Typing test sample...']; // Insert extended quotes array and logic here
